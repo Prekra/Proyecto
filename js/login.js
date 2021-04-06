@@ -125,7 +125,7 @@ function cerrar(){
 
    
 
-    window.location='./index.html'
+    window.location='../index.html'
   
 }
 
