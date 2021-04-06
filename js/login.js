@@ -123,12 +123,9 @@ function cerrar(){
 
     document.getElementById('datos').innerHTML= ""
 
-   
+    location.reload();
 
-    window.location='../index.html'
-  
 }
-
 
 
 
