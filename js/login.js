@@ -123,6 +123,8 @@ function cerrar(){
 
     document.getElementById('datos').innerHTML= ""
 
+    alert("Ha cerrado la sesion")
+
     location.reload();
 
 }
