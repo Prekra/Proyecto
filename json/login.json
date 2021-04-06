@@ -1,0 +1,65 @@
+
+[
+
+
+
+
+{
+        
+    "usuario": "Diego123",
+    "contraseña": "Diego123",
+    "nombre": "Diego",
+    "apellido": "Perez",
+    "correo": "dfpl-10@hotmail.com",
+    "cargo": "Administrador"
+
+
+},
+
+
+
+{
+
+    "usuario": "Sebas",
+    "contraseña": "Gomez",
+    "nombre": "Sebastian",
+    "apellido": "Gomez",
+    "correo": "dfpl-10@hotmail.com",
+    "cargo": "Asesor"
+
+
+},
+
+{
+
+    "usuario": "we",
+    "contraseña": "cole",
+    "nombre": "Mary",
+    "apellido": "MB",
+    "correo": "dfpl-10@hotmail.com",
+    "cargo": "Asesor"
+},
+
+{
+
+    "usuario": "Just",
+    "contraseña": "Justine123",
+    "nombre": "Justine",
+    "apellido": "Escamilla",
+    "correo": "Justine@hotmail.com",
+    "cargo": "Asesora"
+},
+{
+        
+    "usuario": "Fabio",
+    "contraseña": "Fabiozx",
+    "nombre": "Fabian",
+    "apellido": "Perez",
+    "correo": "fepl-10@hotmail.com",
+    "cargo": "Asistente"
+
+
+}
+
+
+]

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promociones</title>
+
+    <link rel="icon" href="../img/icon.ico.png">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <script src="../js/login.js"></script>
+</head>
+<body background="../img/Fondo2.jpg" onload="mostrar()">
+
+     <header>
+        <img src="../img/banner2.jpg" class="w-100">
+        
+    </header> 
+    <nav class="navbar navbar-expand-lg nav nav-pills navbar-light bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <li class="nav-item">
+                <a class="nav-link  text-light" href="../index.html">INICIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  text-light" href="../html/menu.html">MENU</a>
+              </li>
+             
+              <li class="nav-item">
+                <a class="nav-link text-light" href="../html/menu2.html">CATALOGO</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link text-light" href="../html/bebidas.html">BEBIDAS</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link active text-light" href="../html/promos.html">PROMOS</a>
+              </li>  
+            
+              <li class="nav-item">
+                  <a class="nav-link text-light" href="../html/Practica4.html">COMPRA</a>
+              </li>
+
+              <li class="nav-item">
+                  <a class="nav-link text-light" href="../html/contactenos.html">CONTACTENOS</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link disabled text-light" href="#" id="datos"> </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  text-light" href="../html/login.html" id="login">LOGIN</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" id="sesion" href="#" onclick="cerrar()">CERRAR SESION</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+       <br><br>
+
+<div class="container">
+Aquí podrá encontrar todas nuestras promociones tanto de perros calientes, hamburguesas y pizzas estas promociones sólo están disponibles los días sábados y domingos si quieres que las
+promociones apliquen todos los días de la semana puedes obtener la tarjeta con otros tipos de descuentos (adicionales a los mostrados) y si obtienes la tarjeta, puede aplicar para un 2X1 en la
+promoción de perros los días sábados en horario de 2 a 5 de la tarde y los días domingos aplica el 2X1 en las hamburguesas de 1 a 3 de la tarde.
+
+<div class="d-none d-sm-none">
+Sí realizas la compra de algunas de nuestras promociones de forma presencial resivarás un 5% extra al precio de las promociones.
+Además sí usted va a nuestro local en su cumpleaños, recibirá un bono de 50% de descuento en cualquier comida que consuma.
+Por cada compra que realices mayor a $50000 irás acumulando puntos para futuras rifas y promociones, estos puntos no podrás ser traspasado ni
+reclamado por otra persona que no sea el titular
+Gracias por confiar en nosotros disfrute su comida.   
+</div><br><br><br>
+    
+    <table class="table" border="2px">
+
+      <h1 class="text-center "style="font-family: Arial ">PROMOCIONES</h1>
+             <tr >
+               
+                <th  rowspan="3" class="text-center border-secondary"><br><br>
+                    Sabado
+
+                </th >
+                <td class="border-secondary"><b>Hamburguesas</b></td>
+                <td class="border-secondary">2 doble carnes + gaseosa litro </td>
+                <td class="border-secondary">$18000</td>
+            </tr>
+
+            <tr>
+                <td class="border-secondary"><b>Pizza</b></td>
+                <td class="border-secondary">Mediana </td>
+                <td class="border-secondary">$13000</td>
+            </tr>
+
+            <tr>
+                <td class="border-secondary"><b>Perros</b></td>
+                <td class="border-secondary">4 Sencillos </td>
+                <td class="border-secondary">$12000</td>
+        
+            </tr>
+
+
+
+            <tr>
+                <th  rowspan="3" class="text-center border-secondary" ><br><br>
+                    Domingo
+
+                </th>
+                <td class="border-secondary"><b>Hamburguesas</b></td>
+                <td class="border-secondary">Carne + papas + gaseosa personal</td>
+                <td class="border-secondary">$15000</td>
+            </tr>
+
+            <tr>
+                <td class="border-secondary"><b>Pizza</b></td>
+                <td class="border-secondary">2 XL</td>
+                <td class="border-secondary">$10000</td>
+                </tr>
+        
+        
+                <tr>
+                <td class="border-secondary"><b>Perros</b></td>
+                <td class="border-secondary">Suizo + papas + gaseona personal</td>
+                <td class="border-secondary">$10000</td>
+                
+                </tr>
+    </table>
+</div>
+<footer class="text-center bg-dark text-light p-3"> ©Cookie 
+    ThePrezY Copyright © 2021. Cra 13B #55-60 
+    <br>Celulares: 3046408779 - 3004973899 </footer>
+</body>
+</html>

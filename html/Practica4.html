@@ -1,0 +1,187 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COMPRA</title>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="icon" href="../img/icon.ico.png">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <script src="../js/login.js"></script>
+    <script src="../js/compra.js"></script>
+</head>
+
+<body onload="mostrar()">
+      
+  <header>
+    <img src="../img/banner2.jpg" class="w-100">
+    
+  </header> 
+
+  <nav class="navbar navbar-expand-lg nav nav-pills navbar-light bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <li class="nav-item">
+            <a class="nav-link  text-light" href="../index.html">INICIO</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link   text-light" href="../html/menu.html">MENU</a>
+          </li>
+         
+          <li class="nav-item">
+            <a class="nav-link  text-light" href="../html/menu2.html">CATALOGO</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link text-light" href="../html/bebidas.html">BEBIDAS</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link text-light" href="../html/promos.html">PROMOS</a>
+          </li>  
+         
+          <li class="nav-item">
+              <a class="nav-link  active text-light" href="../html/Practica4.html">COMPRA</a>
+          </li>
+
+          
+            <li class="nav-item">
+              <a class="nav-link  text-light" href="../html/contactenos.html">CONTACTENOS</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link disabled text-light" href="#" id="datos"> </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link  text-light" href="../html/login.html" id="login">LOGIN</a>
+            </li>
+            
+            <li class="nav-item">
+            <a class="nav-link text-light" id="sesion" href="#" onclick="cerrar()">CERRAR SESION</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+   <br><br>
+
+   
+
+        
+          <div class="container">
+         
+      
+
+            <div class="card border-secondary p-4">
+
+                <div class="card-header text-center text-light bg-secondary" style="font-size: 20px;">COMPRAS</div>
+                
+    
+                <div class="row p-4">
+
+                
+
+               
+                  <div class="col-lg-3">
+                    
+                    <label>Perro caliente</label>
+                    <select class="form-select" id="opcionesperros">
+                      <option value="0" selected>Seleccionar</option>
+                      <option>Mexicano</option>
+                      <option >Suizo</option>
+                      <option >Doble</option>
+                      <option >Sencillo</option>
+                  </select>
+    
+                  <br><label>Cantidad</label>
+                  <input type="number" class="form-control" id="cantidad1" value="0" min="0">
+                  </div>
+                  
+    
+                  <div class="col-lg-3">
+                    <label>Hamburguesa</label>
+                    <select class="form-select" id="opcioneshamburguesas">
+                      <option value="0" selected>Seleccionar</option>
+                      <option >Mexicana</option>
+                      <option >Beacon</option>
+                      <option >Lafina</option>
+                      <option >Mcdomal</option>
+                      <option >Mixta</option>
+                      <option >Queso</option>
+                      <option >Laparea</option>
+                      <option >Elmedio</option>
+                  </select>
+    
+                  <br><label>Cantidad</label>
+                  <input type="number" class="form-control" id="cantidad2" value="0" min="0">
+                  </div>
+    
+    
+                  <div class="col-lg-3">
+                    <label>Pizza</label>
+                    <select class="form-select" id="opcionespizza">
+                      <option value="0" selected>Seleccionar</option>
+                      <option >Currambera</option>
+                      <option >4sabores</option>
+                      <option >Caprichosa</option>
+                      <option >Jamon</option>
+                  </select>
+    
+                  <br><label>Cantidad</label>
+                  <input type="number" class="form-control" value="0" id="cantidad3" min="0">
+                  </div>
+    
+    
+                  <div class="col-lg-3">
+                    <label>Salchipapa</label>
+                    <select class="form-select" id="opcionessalchi">
+                      <option value="0" selected>Seleccionar</option>
+                      <option >Salchipollo</option>
+                      <option >Combinada</option>
+                      <option >Hawaiana</option>
+                      <option >Sencilla</option>
+                  </select>
+    
+                  <br><label>Cantidad</label>
+                  <input type="number" class="form-control" value="0" min="0" id="cantidad4">
+                  <br><br>
+                  
+                    <button class="btn w-50 btn-outline-success " onclick="enviar()"><b>REGISTRAR</b></button>
+                
+              
+                  </div>
+
+                  <div class="table-responsive"> 
+                  <table class="table text-center " id="tabla"></table>
+              </div>
+
+              
+    
+                  </div>
+                
+                </div></div>
+    
+                 
+                        
+                        
+
+                  
+             
+
+         
+
+
+
+    <br><br><br><br>
+    <footer class="text-center bg-dark text-light p-3"> ©Cookie 
+    ThePrezY Copyright © 2021. Cra 13B #55-60 
+    <br>Celulares: 3046408779 - 3004973899 </footer>
+
+</body>
+</html>  
