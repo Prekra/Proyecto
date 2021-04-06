@@ -120,13 +120,10 @@ function mostrar(){
 function cerrar(){
 
     localStorage.clear()
-
-    document.getElementById('datos').innerHTML= ""
-
     alert("Ha cerrado la sesion")
-
+    document.getElementById('datos').innerHTML= ""
     location.reload();
-
+  
 }
 
 
